@@ -1,0 +1,7 @@
+owner:
+  name: dhananjaya samanta singhar
+spring: 
+  cloud: 
+    config:
+      uri: http://localhost:8888
+      enabled: true

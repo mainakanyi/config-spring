@@ -1,6 +1,10 @@
 spring:
   application:
     name: TestApplication
+  cloud: 
+    config:
+      uri: http://localhost:8888
+      enabled: true
 
 server:
   port: 8086
@@ -13,9 +17,3 @@ management:
 
 hello:
   rel: bsjghdajsh
-  
-spring: 
-  cloud: 
-    config:
-      uri: http://localhost:8888
-      enabled: true
